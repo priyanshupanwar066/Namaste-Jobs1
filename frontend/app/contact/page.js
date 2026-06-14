@@ -107,7 +107,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "priyanshupanwar841@gmail.com",
+      value: "priyanshupanwar@841gmail.com",
       href: "mailto:priyanshupanwar841@gmail.com",
     },
     {
