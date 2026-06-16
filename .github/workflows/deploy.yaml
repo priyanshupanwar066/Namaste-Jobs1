@@ -1,14 +1,19 @@
+#Workflow
+
 name: Test Workflow
 
+
+#Trigger
+
 on : 
-    push:
+    push: #Matlab: Git Push → Workflow Start
         branches:
             - main
-        
+#Job   
 jobs:
     test:
-        runs-on: ubutnu:latest
-
+        runs-on: ubutnu:latest #Runner
+#Step
         steps:
             - name : Print Message
-              run : echo "hello Priyansh Github Action Working!"
+              run: echo "GitHub Actions Test 2"
